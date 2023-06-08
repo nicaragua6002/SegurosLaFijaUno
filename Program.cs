@@ -14,9 +14,11 @@ namespace SegurosLaFija
         [STAThread]
         static void Main()
         {
+            //ggg
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new FrmSplash());
+            Application.Run(new Login());
         }
     }
 }
